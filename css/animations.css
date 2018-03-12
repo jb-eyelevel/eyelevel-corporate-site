@@ -1,0 +1,39 @@
+/*Animations*/
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Animated classes*/
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-iteration-count: 1;
+}
+
+.i01{
+  animation-delay: .2s;
+}
+
+.i02{
+    animation-delay: 1.5s;
+}
+
+.i03{
+    animation-delay: 2.5s;
+}
+
+.i04{
+    animation-delay: 3.5s;
+}

@@ -271,6 +271,8 @@ var hey = function(){
     $navRow.css('position', 'fixed');
     $topMainContent.css('margin-top', '150px');
     $tabContent.css('overflow-y', 'overlay');
+
+    //JB check this out for scrollbar without fixed height: http://jsfiddle.net/cvmrvfhm/1/
     $tabContent.css('height', '700px')
 
 

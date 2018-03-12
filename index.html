@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EyeLevel Corporate Site</title>
+	<meta name="description" content="EyeLevel Corporate site. Page stack navigation makes use of Ilya Kostin's demo https://tympanus.net/Blueprints/PageStackNavigation/" />
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--Font Awesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+	<!-- <link rel="stylesheet" href="./hero.css"/> -->
+	<link rel="stylesheet" type="text/css" href="./css/animations.css"/>
+
+	<script src="js/modernizr-custom.js"></script>
+
+
+
+	<!--Browser tab icon-->
+	<link rel="shortcut icon" href="./assets/favicon-16x16.png">
+
+	<!--Bootstrap  & jQuery from CDN + dependencies-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<!--Animate.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!--JavaScript for site animation and interaction-->
+
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="pages-nav">
+
+		<!--Added Hero code-->
+
+
+		<div id="header-shrink">
+			<div id="head-text">The conversational way to build teams.</div>
+			<div>
+				<button id="arrow-button"><i class="fas fa-arrow-alt-circle-down"></i></button>
+			</div>
+		</div>
+
+
+
+	</nav>
+	<!-- /navigation-->
+	<!-- pages stack -->
+	<div class="pages-stack">
+		<!-- page -->
+
+		<!--EyeLevel Site!-->
+		<div class="page" id="page-home">
+			<div class="container-fluid">
+
+				<!--Navbar section-->
+				<div class="row fixed-top navRow">
+					<div class="col">
+
+						<div class="row brand-row">
+							<div class="col text-center">
+								<ul class="nav content-container mx-auto nav-fill" >
+
+									<li class="nav-item" style="position: relative">
+										<!--hamburger menu-->
+										<button class="dropdown" data-toggle="dropdown">
+											<img src="./assets/ic_menu_black_24dp_2x.png" class="account-icon" alt="Account Icon">
+										</button>
+										<div class="dropdown-menu mx-auto" style="position: absolute">
+											<a class="dropdown-item" href="#">Other content</a>
+										</div>
+									</li>
+
+									<li class="nav-item" id="eyelevel-brand-wrapper" >
+										<!--black, center "eyelevel" image-->
+										<img src="./assets/eyelevel_wordmark_black.png" class="eyelevel-brand-image" alt="EyeLevel Logo">
+									</li>
+
+									<li class="nav-item" style="position: relative">
+										<!--circular profile button-->
+										<button class="dropdown" data-toggle="dropdown">
+											<img src="./assets/ic_account_circle_black_24dp_2x.png" class="account-icon" alt="Profile link">
+										</button>
+										<div class="dropdown-menu mx-auto" style="position: absolute">
+											<a class="dropdown-item" href="#">My Account</a>
+										</div>
+
+									</li>
+
+								</ul>
+
+							</div>
+						</div>
+
+						<!--Social Media Links-->
+						<div class="row social-media-row">
+							<div class="col text-center">
+								<div class="content-container mx-auto">
+									<a href="#" target="_blank" class="social-media-link">Facebook</a><span class="social-media-bullet">&ensp;&bull;&ensp; </span>
+									<a href="#" target="_blank" class="social-media-link">Instagram</a><span class="social-media-bullet">&ensp;&bull;&ensp; </span>
+									<a href="#" target="_blank" class="social-media-link">Twitter</a><span class="social-media-bullet">&ensp;&bull;&ensp; </span>
+									<a href="https://www.linkedin.com/company/eyelevel-software-inc-" target="_blank" class="social-media-link"> LinkedIn</a>
+								</div>
+							</div>
+						</div>
+
+
+						<!--Site navigation tabs-->
+						<div class="row tabs-row">
+							<div class="col">
+
+
+								<ul class="nav content-container mx-auto justify-content-center">
+									<li class="nav-item">
+										<a href="#OverviewPane" data-toggle="tab" class="active clicked-tab">Overview</a>
+									</li>
+									<li class="nav-item">
+										<a href="#DemoPane" data-toggle="tab" class="clicked-tab">Demo</a>
+									</li>
+									<li class="nav-item">
+										<a href="#AboutUsPane" data-toggle="tab" class="clicked-tab">About Us</a>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- / End of Navbar section-->
+
+				<!--Main content-->
+				<main class="row tab-content">
+					<!--OVERVIEW tab content-->
+					<div id="OverviewPane" class="col tab-pane active top-main-content">
+						<div class="row">
+							<div class="col">
+
+								<div class="video-container mx-auto text-center">
+									<video class="site-video mx-auto text-center" controls poster="./assets/eyelevel_logo_v11_white.png">
+										<source src="./assets/respiration_instrumental.mp4" type="video/mp4">
+											<p>Your browser doesn't support HTML5. <a href="./respiration_instrumental.mp4">Download</a> this video instead. </p>
+										</video>
+									</div>
+									<!-- <div class="content-block-no-top-border mx-auto">
+									<p>EyeLevel is on a mission to transfrom the way people join and build their teams. It starts with job descriptions that look a lot like this <span id="pointing-emoji">&#x1F446;</span> (we call them Snapshots), and then cuts through all of the normal friction to get conversations started quickly between candidates and hiring teams. Less red tape means faster hiring.</p>
+								</div> -->
+
+								<!--Block of buttons-->
+								<div class="content-container mx-auto">
+									<button class="button" href="#" id="Snapshots">Snapshots</button>
+									<button class="button" href="#" id="Icebreakers">Icebreakers</button>
+									<button class="button" href="#" id="Insights">Insights</button>
+								</div>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+
+								<div class="snapshot-description-wrapper hidden-snapshot-content">
+
+									<div class="content-block mx-auto fade-in i01">
+										<p>EyeLevel Snapshots are social media-friendly job cards that your team will WANT to share with their networks and that potential new hires will actually read. They look like this:</p>
+									</div>
+
+									<div class="video-container-bare text-center fade-in i02">
+										<video class="site-video mx-auto text-center" controls poster="./assets/eyelevel_logo_v11_white.png">
+											<source src="./assets/respiration_instrumental.mp4" type="video/mp4">
+												<p>Your browser doesn't support HTML5. <a href="./respiration_instrumental.mp4">Download</a> this video instead. </p>
+											</video>
+										</div>
+										<div class="content-block-no-border mx-auto">
+											<!--placeholder for video -->
+											<div class="position-description fade-in i03">
+												<h6>We're hiring: Android Developer!</h6>
+												<p class="small-text">RoboBilly is growing quickly and I need to find a creative and experienced Android Dev to help us engage more users in the process so we can launch new releases more quickly...<br /><br />
+													<a href="#" class="social-media-link">ROBOBILLY.APP.EYELEVEL.IO</a></p>
+												</div>
+
+												<div class="content-container mx-auto fade-in i04">
+													<button class="button" href="#" id="Icebreakers">Icebreakers</button>
+													<button class="button" href="#" id="Insights">Insights</button>
+												</div>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- / End of OVERVIEW tab content-->
+
+							<!-- DEMO tab content -->
+
+							<div class="col tab-pane top-main-content" id="DemoPane">
+								<div class="row">
+									<div class="col">
+
+										<div class="content-block mx-auto text-center">
+											<p>Placeholder for 'Demo' pane content</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<!-- / End of DEMO tab content-->
+
+							<!-- ABOUT US tab content -->
+							<div class="col tab-pane top-main-content" id="AboutUsPane">
+								<div class="row">
+									<div class="col">
+
+										<div class="content-block mx-auto text-center">
+											<p>Placeholder for 'About Us' pane content</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- / End of ABOUT US tab content-->
+						</main>
+
+
+
+						<!--Footer section-->
+						<footer class="row fixed-bottom" id="footer">
+							<div class="col text-center">
+								<div class="opaque-block-clear mx-auto"></div>
+								<div class="opaque-block-white mx-auto"></div>
+
+								<div class="footer-button-container mx-auto text-center">
+									<button class="button" id="footer-button" onclick="hey()">I'm interested</button>
+								</div>
+
+							</div>
+						</footer>
+
+					</div>
+				</div>
+
+				<!--End of site content-->
+
+				<div class="page" id="page-home">
+
+					<header class="bp-header cf">
+
+					</header>
+				</div>
+				<!-- /page -->
+
+
+
+			</div>
+			<!-- /pages-stack -->
+			<!-- <button class="menu-button"><span>Menu</span></button> -->
+			<script src="js/classie.js"></script>
+			<!-- <script src="js/main.js"></script> -->
+			<script src="js/main2.js"></script>
+		</body>
+
+		</html>

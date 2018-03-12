@@ -18,6 +18,7 @@
 
 .fade-in{
   opacity: 0;
+  -webkit-animation: fadeIn 3s forwards;
   animation: fadeIn 3s forwards;
   animation-iteration-count: 1;
 }

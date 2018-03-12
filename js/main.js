@@ -270,7 +270,7 @@ var hey = function(){
 
     $navRow.css('position', 'fixed');
     $topMainContent.css('margin-top', '150px');
-    $tabContent.css('overflow-y', 'auto');
+    $tabContent.css('overflow-y', 'overlay');
     $tabContent.css('height', '700px')
 
 

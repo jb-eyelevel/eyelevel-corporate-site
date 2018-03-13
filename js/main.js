@@ -274,7 +274,7 @@ var hey = function(){
     $tabContent.css('overflow-y', 'overlay');
 
     //JB check this out for scrollbar without fixed height: http://jsfiddle.net/cvmrvfhm/1/
-    $tabContent.css('height', '700px')
+    $tabContent.css('height', '500px')
 
 
 		// set transforms for the other items in the stack

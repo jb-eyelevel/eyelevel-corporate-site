@@ -12,4 +12,6 @@ TODO:
 
 - Preserve animation completion when tabbing to another screen
 
-- Make "I'm Interested" button fixed on mobile
+- Make "I'm Interested" button vertically fixed on mobile
+
+- Arrayed buttons that remove the displays associated content (and removes the button from the array)

@@ -229,7 +229,8 @@ var hey = function(){
 			page.style.transform = 'translate3d(0, 75%, ' + parseInt(-1 * 200 - 50*i) + 'px)';
 
       //JB added
-      page.style.borderRadius = '10px';
+      page.style.borderRadius = '30px';
+      // page.style.width = '438px';
       var $navRow = $('.navRow')
       var $topMainContent = $('.top-main-content');
 

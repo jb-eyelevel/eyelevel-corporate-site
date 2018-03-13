@@ -142,11 +142,19 @@
 
 
 .right{
-  float: right;
+  text-align: right !important;
 }
 
 .left{
-  float: left;
+  text-align: left !important;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
 }
 
 .dropdown{

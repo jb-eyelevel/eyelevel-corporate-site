@@ -6,7 +6,7 @@ Priority:
 
 - Have Overview tab initially highlighted
 
-- Set transformed screen width to 438px while menu is open
+- Set transformed screen width to 438px while menu is open on mobile
 
 - Reconfigure scrolling height and swap out overlay property
 

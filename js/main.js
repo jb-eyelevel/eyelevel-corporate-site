@@ -233,9 +233,11 @@ var hey = function(){
       // page.style.width = '438px';
       var $navRow = $('.navRow')
       var $topMainContent = $('.top-main-content');
+      var $tabContent = $('.tab-content');
 
       $navRow.css('position', 'relative');
       $topMainContent.css('margin-top', '30px');
+      $tabContent.css('overflow-y', 'hidden');
 
       // page.style.webkitBorderRadius = '10px';
 
@@ -264,7 +266,7 @@ var hey = function(){
     futurePage.style.borderRadius = '0px';
     futurePage.style.width = '100%';
 
-
+    //Using jQuery to acccess and change css for DOM elements
     var $navRow = $('.navRow')
     var $topMainContent = $('.top-main-content');
     var $tabContent = $('.tab-content');

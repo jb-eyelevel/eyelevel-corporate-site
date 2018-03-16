@@ -246,7 +246,8 @@ var hey = function(){
 
       //JB added
       page.style.borderRadius = '30px';
-      // page.style.width = '438px';
+      page.style.width = '438px';
+      page.style.margin = "0 auto"
       var $navRow = $('.navRow')
       var $topMainContent = $('.top-main-content');
       var $tabContent = $('.tab-content');

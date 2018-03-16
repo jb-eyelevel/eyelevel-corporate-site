@@ -12,11 +12,13 @@
  /* jQuery's document ready function. Contains all necessary jQuery animation/functionality within */
 $(document).ready(function(){
 
-  /*Set and maintain active tab colors*/
+  /*Set and maintain active tab styling*/
   $('.tab-title').click('click',function(){
     $('.tab-title').removeClass('selected');
     $(this).addClass('selected');
   })
+
+
   /*Display snapshot divs with proper animation*/
   $('#Snapshots').click(function(){
 

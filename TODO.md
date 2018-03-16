@@ -2,7 +2,7 @@ TODO:
 
 Priority:
 
-- Create custom video controls (centered play button)
+- Modify custom video controls
 
 - Set transformed screen width to 438px while menu is open
 

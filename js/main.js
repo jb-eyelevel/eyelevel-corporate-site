@@ -41,9 +41,18 @@ $(document).ready(function(){
     },
     1200);
 
-
   });
 
+  /*Allow play icon to control video*/
+  $('.site-video').parent().click(function(){
+    if($(this).children('.site-video').get(0).paused){
+      $(this).children('.site-video').get(0).play();
+      $(this).children('.play-button').fadeOut();
+    } else {
+      $(this).children('.site-video').get(0).pause();
+      $(this).children('.play-button').fadeIn();
+    }
+  })
 
 })
 

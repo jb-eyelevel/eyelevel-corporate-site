@@ -327,6 +327,7 @@
 .video-container{
   /* margin: 12px 0px 0px 12px; */
   vertical-align: bottom;
+  position: relative;
 }
 
 /* .video-container-bare{
@@ -334,11 +335,31 @@ margin: 0px 0px 12px 0px;
 } */
 
 .site-video{
+  object-fit: cover;
   display: inline-block;
   margin: 0 auto;
   width: 400px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+
+.poster{
+  border: 1px solid red;
+}
+
+.play-button{
+  position:absolute;
+  background-image:url(../assets/border_play_icon.png);
+  background-repeat:no-repeat;
+  width:50%;
+  height:50%;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
 }
 
 .small-text{

@@ -2,7 +2,9 @@ TODO:
 
 Priority:
 
-- Modify custom video controls
+- Be able to click the bottom screen to pop site up
+
+- Have Overview tab initially highlighted
 
 - Set transformed screen width to 438px while menu is open
 

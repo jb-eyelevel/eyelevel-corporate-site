@@ -283,7 +283,7 @@ var hey = function(){
     $tabContent.css('overflow-y', 'overlay');
 
     //JB check this out for scrollbar without fixed height: http://jsfiddle.net/cvmrvfhm/1/
-    $tabContent.css('height', '550');
+    $tabContent.css('height', '80vh');
     // $tabContent.css('max-height', '100%');
 
 

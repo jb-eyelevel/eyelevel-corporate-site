@@ -1,17 +1,22 @@
 TODO:
 
+Priority:
+
+- Create custom video controls (centered play button)
+
+- Set transformed screen width to 438px while menu is open
+
 - Reconfigure scrolling height and swap out overlay property
-
-- Adjust tab underline pixels for Safari
-
--  Adjust & center "absolutely positioned" drop down tabs
-
-- Conjoin open/close functions in to one toggle
-
-- Preserve animation completion when tabbing to another screen
-
-- Make "I'm Interested" button vertically fixed on mobile
 
 - Arrayed buttons that displays associated content (and removes the button from the array)
 
-- Custom video controls
+
+Then:
+
+- Adjust tab margin/underline pixels for Safari
+
+- Conjoin open/close functions in to single toggle function
+
+- Preserve animation completion when tabbing to another screen
+
+- Remove address bar & force "I'm Interested" button to have vertically fixed visibility on mobile

@@ -12,6 +12,11 @@
  /* jQuery's document ready function. Contains all necessary jQuery animation/functionality within */
 $(document).ready(function(){
 
+  /*Set and maintain active tab colors*/
+  $('.tab-title').click('click',function(){
+    $('.tab-title').removeClass('selected');
+    $(this).addClass('selected');
+  })
   /*Display snapshot divs with proper animation*/
   $('#Snapshots').click(function(){
 
@@ -276,7 +281,7 @@ var hey = function(){
     $tabContent.css('overflow-y', 'overlay');
 
     //JB check this out for scrollbar without fixed height: http://jsfiddle.net/cvmrvfhm/1/
-    $tabContent.css('height', '500');
+    $tabContent.css('height', '550');
     // $tabContent.css('max-height', '100%');
 
 

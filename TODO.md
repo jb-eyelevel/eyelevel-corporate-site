@@ -1,8 +1,6 @@
 TODO:
 
-- Reconfigure scrolling without overlay
-
-- Lock in tab underlines
+- Reconfigure scrolling height and swap out overlay property
 
 - Adjust tab underline pixels for Safari
 
@@ -15,3 +13,5 @@ TODO:
 - Make "I'm Interested" button vertically fixed on mobile
 
 - Arrayed buttons that remove the displays associated content (and removes the button from the array)
+
+- Custom video controls
